@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3703F5661CA0D1ED00F5A678 /* MonsterImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3703F5651CA0D1EC00F5A678 /* MonsterImg.swift */; };
 		373BCE9A1CA026A9004EFB55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373BCE991CA026A9004EFB55 /* AppDelegate.swift */; };
 		373BCE9C1CA026A9004EFB55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373BCE9B1CA026A9004EFB55 /* ViewController.swift */; };
 		373BCE9F1CA026A9004EFB55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 373BCE9D1CA026A9004EFB55 /* Main.storyboard */; };
@@ -14,6 +15,12 @@
 		373BCEA41CA026A9004EFB55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 373BCEA21CA026A9004EFB55 /* LaunchScreen.storyboard */; };
 		373BCEAF1CA026A9004EFB55 /* myTamagochiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373BCEAE1CA026A9004EFB55 /* myTamagochiTests.swift */; };
 		373BCEBA1CA026A9004EFB55 /* myTamagochiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373BCEB91CA026A9004EFB55 /* myTamagochiUITests.swift */; };
+		373BCEC81CA057FE004EFB55 /* dragImache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373BCEC71CA057FE004EFB55 /* dragImache.swift */; };
+		37B7D77F1CA1BF7C009644F0 /* bite.wav in Resources */ = {isa = PBXBuildFile; fileRef = 37B7D77A1CA1BF7B009644F0 /* bite.wav */; };
+		37B7D7801CA1BF7C009644F0 /* cave-music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 37B7D77B1CA1BF7B009644F0 /* cave-music.mp3 */; };
+		37B7D7811CA1BF7C009644F0 /* death.wav in Resources */ = {isa = PBXBuildFile; fileRef = 37B7D77C1CA1BF7B009644F0 /* death.wav */; };
+		37B7D7821CA1BF7C009644F0 /* heart.wav in Resources */ = {isa = PBXBuildFile; fileRef = 37B7D77D1CA1BF7B009644F0 /* heart.wav */; };
+		37B7D7831CA1BF7C009644F0 /* skull.wav in Resources */ = {isa = PBXBuildFile; fileRef = 37B7D77E1CA1BF7B009644F0 /* skull.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3703F5651CA0D1EC00F5A678 /* MonsterImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonsterImg.swift; sourceTree = "<group>"; };
 		373BCE961CA026A9004EFB55 /* myTamagochi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myTamagochi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		373BCE991CA026A9004EFB55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		373BCE9B1CA026A9004EFB55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,12 @@
 		373BCEB51CA026A9004EFB55 /* myTamagochiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myTamagochiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		373BCEB91CA026A9004EFB55 /* myTamagochiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTamagochiUITests.swift; sourceTree = "<group>"; };
 		373BCEBB1CA026A9004EFB55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		373BCEC71CA057FE004EFB55 /* dragImache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = dragImache.swift; path = ../dragImache.swift; sourceTree = "<group>"; };
+		37B7D77A1CA1BF7B009644F0 /* bite.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bite.wav; sourceTree = "<group>"; };
+		37B7D77B1CA1BF7B009644F0 /* cave-music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "cave-music.mp3"; sourceTree = "<group>"; };
+		37B7D77C1CA1BF7B009644F0 /* death.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = death.wav; sourceTree = "<group>"; };
+		37B7D77D1CA1BF7B009644F0 /* heart.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = heart.wav; sourceTree = "<group>"; };
+		37B7D77E1CA1BF7B009644F0 /* skull.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = skull.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +111,19 @@
 		373BCE981CA026A9004EFB55 /* myTamagochi */ = {
 			isa = PBXGroup;
 			children = (
+				37B7D77A1CA1BF7B009644F0 /* bite.wav */,
+				37B7D77B1CA1BF7B009644F0 /* cave-music.mp3 */,
+				37B7D77C1CA1BF7B009644F0 /* death.wav */,
+				37B7D77D1CA1BF7B009644F0 /* heart.wav */,
+				37B7D77E1CA1BF7B009644F0 /* skull.wav */,
 				373BCE991CA026A9004EFB55 /* AppDelegate.swift */,
 				373BCE9B1CA026A9004EFB55 /* ViewController.swift */,
 				373BCE9D1CA026A9004EFB55 /* Main.storyboard */,
 				373BCEA01CA026A9004EFB55 /* Assets.xcassets */,
 				373BCEA21CA026A9004EFB55 /* LaunchScreen.storyboard */,
 				373BCEA51CA026A9004EFB55 /* Info.plist */,
+				373BCEC71CA057FE004EFB55 /* dragImache.swift */,
+				3703F5651CA0D1EC00F5A678 /* MonsterImg.swift */,
 			);
 			path = myTamagochi;
 			sourceTree = "<group>";
@@ -229,6 +250,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37B7D7831CA1BF7C009644F0 /* skull.wav in Resources */,
+				37B7D77F1CA1BF7C009644F0 /* bite.wav in Resources */,
+				37B7D7811CA1BF7C009644F0 /* death.wav in Resources */,
+				37B7D7821CA1BF7C009644F0 /* heart.wav in Resources */,
+				37B7D7801CA1BF7C009644F0 /* cave-music.mp3 in Resources */,
 				373BCEA41CA026A9004EFB55 /* LaunchScreen.storyboard in Resources */,
 				373BCEA11CA026A9004EFB55 /* Assets.xcassets in Resources */,
 				373BCE9F1CA026A9004EFB55 /* Main.storyboard in Resources */,
@@ -256,7 +282,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3703F5661CA0D1ED00F5A678 /* MonsterImg.swift in Sources */,
 				373BCE9C1CA026A9004EFB55 /* ViewController.swift in Sources */,
+				373BCEC81CA057FE004EFB55 /* dragImache.swift in Sources */,
 				373BCE9A1CA026A9004EFB55 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -398,9 +426,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = myTamagochi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lucasIndustries.myTamagochi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -409,9 +439,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = myTamagochi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lucasIndustries.myTamagochi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -482,6 +514,7 @@
 				373BCEC01CA026A9004EFB55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		373BCEC11CA026A9004EFB55 /* Build configuration list for PBXNativeTarget "myTamagochiTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +523,7 @@
 				373BCEC31CA026A9004EFB55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		373BCEC41CA026A9004EFB55 /* Build configuration list for PBXNativeTarget "myTamagochiUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +532,7 @@
 				373BCEC61CA026A9004EFB55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
